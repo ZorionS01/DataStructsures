@@ -14,6 +14,7 @@ public class Demo1 {
 //        int i = scanner.nextInt();
 //        isSuShu(i);
         System.out.println(Math.pow(16, 15)%4731);
+        System.out.println("111111111111111");
     }
 
     public static void isSuShu(int n){
