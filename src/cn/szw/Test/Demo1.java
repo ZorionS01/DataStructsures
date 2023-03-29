@@ -18,6 +18,7 @@ public class Demo1 {
         System.out.println("2222222222222222");
         System.out.println("master1");
         System.out.println("hot-fix");
+        System.out.println("github 提交");
     }
 
     public static void isSuShu(int n){
