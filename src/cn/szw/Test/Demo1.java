@@ -16,6 +16,7 @@ public class Demo1 {
         System.out.println(Math.pow(16, 15)%4731);
         System.out.println("111111111111111");
         System.out.println("2222222222222222");
+        System.out.println("hot-fix");
     }
 
     public static void isSuShu(int n){
