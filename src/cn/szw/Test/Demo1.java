@@ -20,6 +20,7 @@ public class Demo1 {
         System.out.println("hot-fix");
         System.out.println("github 提交");
         System.out.println("pull 提交");
+        System.out.println("Gitee 提交");
         
     }
 
