@@ -1,5 +1,6 @@
 package cn.szw.Test;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -13,7 +14,7 @@ public class Demo1 {
 //        Scanner scanner = new Scanner(System.in);
 //        int i = scanner.nextInt();
 //        isSuShu(i);
-        System.out.println(Math.pow(16, 15)%4731);
+        /*System.out.println(Math.pow(16, 15)%4731);
         System.out.println("111111111111111");
         System.out.println("2222222222222222");
         System.out.println("master1");
@@ -21,7 +22,24 @@ public class Demo1 {
         System.out.println("github 提交");
         System.out.println("pull 提交");
         System.out.println("Gitee 提交");
-        System.out.println("Gitee 提交 11");
+        System.out.println("Gitee 提交 11");*/
+
+
+        /*final int[] value ={1,2,3};
+        int[] num = {};
+        num = value;
+        System.out.println("==="+ Arrays.toString(num));
+        num[0]=0;
+        System.out.println("-----"+Arrays.toString(num));
+        System.out.println("-----"+Arrays.toString(value));*/
+        String a = "123";
+        String b = "";
+        b=a;
+        System.out.println(b);
+        String replace = b.replace("1", "0");
+        System.out.println(replace);
+        System.out.println(b);
+
         
     }
 
