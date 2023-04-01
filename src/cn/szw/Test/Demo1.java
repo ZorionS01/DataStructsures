@@ -39,6 +39,7 @@ public class Demo1 {
         String replace = b.replace("1", "0");
         System.out.println(replace);
         System.out.println(b);
+        System.out.println("2023-4-1");
 
         
     }
