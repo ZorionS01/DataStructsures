@@ -1,6 +1,8 @@
 package cn.szw.sort;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.logging.SimpleFormatter;
@@ -20,15 +22,19 @@ public class BubbleSort {
         for (int i = 0; i < 8; i++){
             arr[i] = (int)(Math.random()*80000);
         }
-        Date date = new Date();
+        /*Date date = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String format = simpleDateFormat.format(date);
+        System.out.println("排序前时间:"+format);*/
+        String format = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         System.out.println("排序前时间:"+format);
         bubbleSort(arr);
-        Date date1 = new Date();
+        /*Date date1 = new Date();
         SimpleDateFormat simpleDateFormat1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String format1 = simpleDateFormat1.format(date1);
-        System.out.println("排序后时间:"+format1);
+        System.out.println("排序后时间:"+format1);*/
+        String format1 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println("排序后的时间:"+format1);
 //        System.out.println("排序后:");
 //        System.out.println(Arrays.toString(arr));
     }
